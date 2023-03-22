@@ -7,15 +7,15 @@ A simple interface for Windows that uses OpenAI's GPT-3 API to generate response
 ## Installation on Windows
 1. Install Python and check "Add Python to PATH."
 2. Install git.
-3. Clone the repository:
+3. Clone the repository.
 ```bash
 git clone https://github.com/777gt/ChatGP3.git
 ```
-4. Install the required Python package for OpenAI and ttkbootstrap. If you already have them, skip this. Otherwise:
+4. Install the required Python package for OpenAI and ttkbootstrap. If you already have them, skip this. Otherwise, do this.
 ```bash
 pip install -r requirements.txt
 ```
-5. After installing everything, you can enter the folder to run the script:
+5. After installing everything, you can enter the folder to run the script.
 ```bash
 cd ChatGP3
 ChatGP3.pyw
