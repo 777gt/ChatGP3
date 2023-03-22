@@ -105,7 +105,7 @@ def set_api(event=None):
     except FileNotFoundError:
         api_button.config(bootstyle="danger")
 #Create window
-window=ttk.Window(themename="vapor")
+window=ttk.Window(themename="darkly")
 window.title("ChatGP3")
 top_bar=ttk.Frame(window, height=25).pack(anchor="n", expand=True, fill="both")
 save_button=ttk.Button(top_bar, text="Save",command=save).place(relx=0.0,rely=0)
