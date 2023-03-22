@@ -1,28 +1,29 @@
 # ChatGP3
 
-A simple chatbot program that uses OpenAI's GPT-3 API to generate responses.
+A simple interface for Windows that uses OpenAI's GPT-3 API to generate responses.
 
 ![Conversation between User and Assistant](preview.jpg)
 
-## Getting Started
-
-To use this program, you will need an OpenAI API key. You can set your API key by clicking the "Set API Path" button in the top menu of the program. Otherwise, the script will look for a file named "openai_key.txt" in the same directory as the script.
-
-To run it, you can first clone the repository:
+##Installation on Windows
+1. Install Python and check "Add Python to PATH."
+2. Install git.
+3. Clone the repository:
 ```bash
 git clone https://github.com/777gt/ChatGP3.git
 ```
-Then, you will need to install the required Python package for OpenAI and ttkbootstrap. If you already have them, skip this:
+4. Install the required Python package for OpenAI and ttkbootstrap. If you already have them, skip this. Otherwise:
 ```bash
 pip install -r requirements.txt
 ```
-Lastly, you can enter the folder and run the script:
+5. After installing everything, you can enter the folder to run the script:
 ```bash
 cd ChatGP3
 ChatGP3.pyw
 ```
 
-Once you have set your API key and installed the required packages, you can run the program by running the ChatgGP3.pyw file.
+## Getting Started
+
+To use this program, you will need an OpenAI API key. You can set your API key by clicking the "Set API Path" button in the top menu of the program. Otherwise, the script will look for a file named "openai_key.txt" in the same directory as the script.
 
 ## Usage
 
