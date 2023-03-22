@@ -4,7 +4,7 @@ A simple interface for Windows that uses OpenAI's GPT-3 API to generate response
 
 ![Conversation between User and Assistant](preview.jpg)
 
-##Installation on Windows
+## Installation on Windows
 1. Install Python and check "Add Python to PATH."
 2. Install git.
 3. Clone the repository:
