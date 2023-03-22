@@ -106,7 +106,7 @@ def set_api(event=None):
         api_button.config(bootstyle="danger")
 #Create window
 window=ttk.Window(themename="vapor")
-window.title("ChatGPT")
+window.title("ChatGP3")
 top_bar=ttk.Frame(window, height=25).pack(anchor="n", expand=True, fill="both")
 save_button=ttk.Button(top_bar, text="Save",command=save).place(relx=0.0,rely=0)
 load_button=ttk.Button(top_bar, text="Load", command=load).place(relx=0.1,rely=0)
