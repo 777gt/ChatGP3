@@ -2,7 +2,7 @@
 
 A simple chatbot program that uses OpenAI's GPT-3 API to generate responses.
 
-![Conversation between User and Assistant](chat_preview.jpg)
+![Conversation between User and Assistant](preview.jpg)
 
 ## Getting Started
 
