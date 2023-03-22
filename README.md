@@ -23,7 +23,7 @@ You can save and load conversation histories by clicking the "Save" and "Load" b
 
 If you have any suggestions or find any bugs, please feel free to open an issue or submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Disclaimer
