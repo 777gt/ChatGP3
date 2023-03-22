@@ -2,6 +2,8 @@
 
 A simple chatbot program that uses OpenAI's GPT-3 API to generate responses.
 
+![Conversation between User and Assistant](chat_preview)
+
 ## Getting Started
 
 To use this program, you will need an OpenAI API key. You can set your API key by clicking the "Set API Path" button in the top menu of the program. Otherwise, the script will look for a file named "openai_key.txt" in the same directory as the script.
