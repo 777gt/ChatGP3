@@ -30,13 +30,13 @@ def Chat():
     status()
     
 def Send(event=None):
-    status("Sending...")
+    status("Sending...",wait=False)
     send_button.config(state="disabled")
     global last_prompt
     last_prompt=input_box.get()
     history_deque.append("User: "+last_prompt)
     input_box.delete(0,"end")
-    window.update()
+    Update()
     Chat()
     send_button.config(state="normal")
     
